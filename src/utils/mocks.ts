@@ -1,55 +1,61 @@
 import { Product } from "./types";
 import P1 from "/public/p1.webp"
+import Female2 from "/public/Female2.png"
+import Female3 from "public/Female3.png"
+import Male1 from "/public/Male1.png"
+import Male2 from "/public/Male2.png"
+import Kids1 from "/public/Kids1.webp"
+import kids2 from "/public/kids2.jpeg"
 
 
 export const Products: Product[]= [ 
 {
     id: 1,
-    name: 'Product 1',
+    name: 'Imperial Alpaca Hoodie',
     category: 'female',
     price: 20,
     image: P1,
 },
 {
     id: 2,
-    name: 'Product 2',
+    name: 'Brushed Raglan Sweatshirt',
     category: 'female',
     price: 200,
-    image: P1,
+    image: Female2,
 },
 {
     id: 3,
-    name: 'Product 3',
+    name: 'Cameryn Sash Tie Dress',
     category: 'female',
     price: 203,
-    image: P1,
+    image: Female3,
 },
 {
     id: 4,
-    name: 'Product 4',
+    name: 'Flex Push Button Bomber',
     category: 'male',
     price: 40,
-    image: P1,
+    image: Male1,
 },
 {
     id: 5,
-    name: 'Product 5',
+    name: 'Raglan Sweatshirt',
     category: 'male',
     price: 205,
-    image: P1,
+    image: Male2,
 },
 {
     id: 6,
-    name: 'Product 6',
+    name: 'Kids suit',
     category: 'kids',
     price: 20,
-    image: P1,
+    image: Kids1,
 },
 {
     id: 7,
-    name: 'Product 7',
+    name: 'Toddlers Irish Sweater',
     category: 'kids',
     price: 201,
-    image: P1,
+    image: kids2,
 },
 ];
